@@ -1,0 +1,78 @@
+.plateform-container {
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+.plateform-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.platform-header{
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 800;
+  padding: 30px 0 2px 0;
+}
+.plateform-info img {
+  display: inline-block;
+}
+
+.plateform-logo {
+  height: 60px;
+  width: 60px;
+  margin: 0 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  object-fit: contain;
+  border: 2px solid;
+}
+
+/* slider */
+.slider,
+.indicator {
+  border-radius: 20px;
+  height: 40px;
+}
+
+.slider {
+  margin: 20px auto;
+  width: 300px;
+  background-color: #1976d245;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.slider:hover {
+  cursor: pointer;
+}
+
+.indicator {
+  width: 150px;
+  background-color: #1976d2;
+  color: #f7f7f7;
+  position: absolute;
+  left: 0;
+  text-align: center;
+  line-height: 40px;
+  font-size: 1.4em;
+  transition: all cubic-bezier(0.61, 0.83, 0.62, 0.98) 450ms;
+}
+
+/* events */
+.events-holder {
+  padding-bottom: 80px;
+}
+.no-events {
+  max-width: 250px;
+  margin: 40px auto;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 2px solid rgb(211, 76, 103);
+  font-size: 1.2em;
+}
