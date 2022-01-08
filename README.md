@@ -21,6 +21,12 @@ For production ready folder use
 ```node
 npm run build
 ```
+## Using extension
+1. go to settings
+2. go to extensions
+3. enable developer mode if not enabled
+4. select **load unpacked**
+5. select the build folder
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
